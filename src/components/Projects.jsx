@@ -5,14 +5,16 @@ import Autoplay from 'embla-carousel-autoplay'
 import { FaGithub } from 'react-icons/fa';
 import project1 from '../assets/project1.jpeg'
 import project2 from '../assets/project2.jpeg'
+import project3 from '../assets/project3.jpg'
 const projects = [
     {
         name:"Reciept forecast Pro",
         description:"Machine Learning based prediction application with XGBoost Regressor for Univariate time series data" ,
         tags:[
             "#Python",
-            "ReactJS",
-            "#XGBoost"
+            "LSTM",
+            "#XGBoost",
+            "Docker"
         ],
         image:project1,
         github_link:"https://github.com/surya-bit/ML-Application",
@@ -25,12 +27,26 @@ const projects = [
         tags:[
             "#Python",
             "#ReactJS",
+            "Transformers",
             "#ElascticSearch"
         ],
         image:project2,
         github_link:"https://github.com/surya-bit/nlp-app",
 
-    }
+    },
+
+    {
+      name:"Microbiology-Image-Classification-Model-with-NasNet-Large model",
+      description:"The model is designed to classify microbiology images into one of four classes: Blasto, Positives, Negatives, and Background",
+      tags:[
+          "#Python",
+          "#sklearn",
+          "#Image processing "
+      ],
+      image:project3,
+      github_link:"https://github.com/surya-bit/Microbiology-Image-Classification-Model-with-NasNet-Large",
+
+  }
 
 ]
 

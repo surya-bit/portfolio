@@ -7,7 +7,7 @@ const experience = [
       company_name: "Metasystems Group International",
       icon: meta,
       iconBg: "#383E56",
-      date: "March 2023 - May 2023",
+      date: "May 2023 - Aug 2023",
       points: [
         "Developed and tested DenseNet201 DNN classifier for FISH (Fluorescence in situ hybridization) data for cancer application. Achieved a testing accuracy of 92%",
         "Utilized Power BI Desktop to connect and consolidate diverse data sources, employing Power Query for data cleaning and transformation Implemented DAX for advanced analytics and developed compelling visualizations and interactive dashboards using Power BI's extensive library",
