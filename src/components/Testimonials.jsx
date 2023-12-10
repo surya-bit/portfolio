@@ -50,7 +50,7 @@ const Testimonials = () => {
             <div className='embla__container'>
                 {testimonials.map((testimonial, index) => (
                     <div className='embla__slide' key={index} >
-                        <div className='flex items-center justify-center mt-1 px-6 pt-8'>
+                        <div className='flex items-center justify-center mt-1 px-6 pt-4'>
 
                             <img className='rounded-full h-24 mr-2' src={testimonial.image} ></img>
 

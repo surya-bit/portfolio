@@ -82,7 +82,7 @@ return (
 
       </div>
       <div className='mt-10 text-gray-100 text-center'>
-      As a Master's student in Datascience at the University of Wisconsin-Madison, I am passionate about applying artificial intelligence and machine learning to solve real-world problems. I am always eager to learn new technologies and methods, and I aspire to become a leader and a contributor in the field of Data Science and AI.
+      As a Master's student in Datascience at the University of Wisconsin-Madison, I am passionate about applying artificial intelligence and machine learning to solve real-world problems. 
       </div>
       </div>
        : 

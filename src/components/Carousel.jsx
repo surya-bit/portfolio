@@ -36,10 +36,10 @@ const Carousel = () => {
       (
       <div className='embla__slide'>
 
-    <div className='absolute z-30 text-slate-900 font-black text-black top-0 text-[100px]'>
+    <div className='absolute z-30 text-slate-900 font-black text-black top-0 text-[60px]'>
     <p>{item.fname}</p>
     <p>{item.lname}</p>
-    <span className='text-3xl'>
+    <span className='text-2xl'>
       {item.degree}
     </span>
     </div>
