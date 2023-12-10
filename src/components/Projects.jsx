@@ -36,7 +36,7 @@ const projects = [
     },
 
     {
-      name:"Microbiology-Image-Classification-Model-with-NasNet-Large model",
+      name:"Microbiology-Image-Classification-Model",
       description:"The model is designed to classify microbiology images into one of four classes: Blasto, Positives, Negatives, and Background",
       tags:[
           "#Python",
