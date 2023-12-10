@@ -1,5 +1,6 @@
 import meta from './meta_logo.jpeg'
 import starbucks from './pes_logo.jpeg'
+import uwlogo from './uwlogo.png'
 const experience = [
     {
       title: "Deep Learning Specialist",
@@ -14,6 +15,20 @@ const experience = [
         
       ],
     },
+
+    {
+      title: "Graduate Teaching Assistant",
+      company_name: "University of Wisconsin-Madison",
+      icon: uwlogo,
+      iconBg: "#E6DEDD",
+      date: "Nov 2022 - Jan 2023",
+      points: [
+        "Collaborated with the faculty director to develop sample projects and modules for the course Statistical Inference (STAT 610)",
+        "Graded assignments and provided guidance to students through weekly office hours."
+        
+      ],
+    },
+
     {
       title: "Machine Learning Researcher",
       company_name: "PESU Research Foundation",
@@ -27,17 +42,6 @@ const experience = [
       ],
     },
 
-    {
-      title: "Graduate Project Assistant",
-      company_name: "PESU Research Foundation",
-      icon: starbucks,
-      iconBg: "#E6DEDD",
-      date: "May 2020 - Jun 2021",
-      points: [
-        "Collaborated with a professor and enacted an algorithm using deep learning techniques for automatic cruise control of vehicles. Used advanced neural network methods like YOLO V4 for object and lane detection",
-        "Supervised a team of 3, resulting in 33% enhancement in detection accuracy. Showcased decisive approach in making critical decisions to optimize algorithms. Utilized Tableau desktop to visualize the output metrics and compare various hypotheses. Assisted in preparation and submission of research papers.",
-        
-      ],
-    }
+   
   ];
 export default  experience;
